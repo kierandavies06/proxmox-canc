@@ -1,0 +1,35 @@
+:root {
+  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color-scheme: dark;
+  background-color: #020617;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, rgba(14, 165, 233, 0.18), transparent 50%),
+    radial-gradient(circle at 20% 20%, rgba(16, 185, 129, 0.12), transparent 40%),
+    #020617;
+}
+
+.aurora-sheen {
+  position: absolute;
+  inset: -30% -20% auto -20%;
+  height: 40vh;
+  background: radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.35), transparent 55%),
+    radial-gradient(circle at 60% 0%, rgba(129, 140, 248, 0.4), transparent 50%),
+    radial-gradient(circle at 90% 10%, rgba(16, 185, 129, 0.45), transparent 45%);
+  filter: blur(60px);
+  opacity: 0.65;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.noise-surface {
+  position: absolute;
+  inset: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+  opacity: 0.05;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 5;
+}

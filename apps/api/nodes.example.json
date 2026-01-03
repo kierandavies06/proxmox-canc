@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {
+      "id": "kieran-pve",
+      "name": "Proxmox Node",
+      "host": "192.168.0.176",
+      "api_port": 8006,
+      "username": "root@pam",
+      "password": "changeme",
+      "node_name": "pve-node-01",
+      "mac_address": "AA:BB:CC:DD:EE:FF",
+      "verify_tls": true,
+      "ca_bundle": null
+    }
+  ]
+}

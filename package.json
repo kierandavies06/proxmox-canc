@@ -1,0 +1,13 @@
+{
+  "name": "proxmox-canc",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/frontend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --workspace apps/frontend run dev",
+    "build:frontend": "npm --workspace apps/frontend run build",
+    "preview:frontend": "npm --workspace apps/frontend run preview"
+  }
+}

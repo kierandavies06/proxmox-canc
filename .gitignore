@@ -1,0 +1,52 @@
+# Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+/dist/
+.eggs/
+*.egg-info/
+
+# Node dependencies
+node_modules/
+apps/frontend/node_modules/
+
+# Nuxt build output
+apps/frontend/.nuxt/
+apps/frontend/.output/
+
+# Wrangler local state
+apps/frontend/.wrangler/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs and tooling
+.vscode/
+.idea/
+*.swp
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+apps/api/.env
+apps/api/nodes.json
+
+# Local JSON config overrides
+*.local.json
+
+# Logs and coverage
+*.log
+.coverage
+htmlcov/
